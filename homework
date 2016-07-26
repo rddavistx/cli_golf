@@ -1,0 +1,185 @@
+Last login: Mon Jul 25 21:25:39 on ttys000
+RichardDavis ~
+$ cd Downloads/
+RichardDavis ~/Downloads
+$ cd kitchen/
+RichardDavis ~/Downloads/kitchen
+$ ls
+cans.txt  fridge/  pantry/
+RichardDavis ~/Downloads/kitchen
+$ mv cans.txt pantry
+'cans.txt' -> 'pantry/cans.txt'
+RichardDavis ~/Downloads/kitchen
+$ ls
+fridge/  pantry/
+RichardDavis ~/Downloads/kitchen
+$ cd fridge/
+RichardDavis ~/Downloads/kitchen/fridge
+$ ls
+diapers.txt  freezer/  milk.txt  trashcan/
+RichardDavis ~/Downloads/kitchen/fridge
+$ rm diapers.txt 
+removed 'diapers.txt'
+RichardDavis ~/Downloads/kitchen/fridge
+$ cd ../
+RichardDavis ~/Downloads/kitchen
+$ ls
+fridge/  pantry/
+RichardDavis ~/Downloads/kitchen
+$ cd fridge
+RichardDavis ~/Downloads/kitchen/fridge
+$ ls
+freezer/  milk.txt  trashcan/
+RichardDavis ~/Downloads/kitchen/fridge
+$ cd freezer/
+RichardDavis ~/Downloads/kitchen/fridge/freezer
+$ ls
+couch.txt  frozenpeas.txt  icecream.txt
+RichardDavis ~/Downloads/kitchen/fridge/freezer
+$ rm couch.txt 
+removed 'couch.txt'
+RichardDavis ~/Downloads/kitchen/fridge/freezer
+$ ls
+frozenpeas.txt	icecream.txt
+RichardDavis ~/Downloads/kitchen/fridge/freezer
+$ cd ../
+RichardDavis ~/Downloads/kitchen/fridge
+$ ls
+freezer/  milk.txt  trashcan/
+RichardDavis ~/Downloads/kitchen/fridge
+$ cd ../
+RichardDavis ~/Downloads/kitchen
+$ ls
+fridge/  pantry/
+RichardDavis ~/Downloads/kitchen
+$ cd fridge
+RichardDavis ~/Downloads/kitchen/fridge
+$ ls
+freezer/  milk.txt  trashcan/
+RichardDavis ~/Downloads/kitchen/fridge
+$ mv trashcan/ ~Downloads/kitchen
+gmv: cannot move 'trashcan/' to '~Downloads/kitchen': No such file or directory
+RichardDavis ~/Downloads/kitchen/fridge
+$ cd ,,/
+-bash: cd: ,,/: No such file or directory
+RichardDavis ~/Downloads/kitchen/fridge
+$ cd ../
+RichardDavis ~/Downloads/kitchen
+$ cd fridge
+RichardDavis ~/Downloads/kitchen/fridge
+$ ls
+freezer/  milk.txt  trashcan/
+RichardDavis ~/Downloads/kitchen/fridge
+$ mv trashcan/ ~/Downloads/kitchen/
+'trashcan/' -> '/Users/RichardDavis/Downloads/kitchen/trashcan'
+RichardDavis ~/Downloads/kitchen/fridge
+$ ls
+freezer/  milk.txt
+RichardDavis ~/Downloads/kitchen/fridge
+$ cd ../
+RichardDavis ~/Downloads/kitchen
+$ ls
+fridge/  pantry/  trashcan/
+RichardDavis ~/Downloads/kitchen
+$ cd trashcan
+RichardDavis ~/Downloads/kitchen/trashcan
+$ ls
+banana-peels.txt  chicken-bones.txt  egg-shells.txt  sink/
+RichardDavis ~/Downloads/kitchen/trashcan
+$ mv chicken-bones.txt banana-peels.txt 
+'chicken-bones.txt' -> 'banana-peels.txt'
+RichardDavis ~/Downloads/kitchen/trashcan
+$ mv egg-shells.txt banana-peels.txt 
+'egg-shells.txt' -> 'banana-peels.txt'
+RichardDavis ~/Downloads/kitchen/trashcan
+$ ls
+banana-peels.txt  sink/
+RichardDavis ~/Downloads/kitchen/trashcan
+$ cd banana-peels.txt 
+-bash: cd: banana-peels.txt: Not a directory
+RichardDavis ~/Downloads/kitchen/trashcan
+$ cd banana-peels.txt 
+-bash: cd: banana-peels.txt: Not a directory
+RichardDavis ~/Downloads/kitchen/trashcan
+$ ls
+banana-peels.txt  sink/
+RichardDavis ~/Downloads/kitchen/trashcan
+$ cd ../
+RichardDavis ~/Downloads/kitchen
+$ ls
+fridge/  pantry/  trashcan/
+RichardDavis ~/Downloads/kitchen
+$ cd fridge/
+RichardDavis ~/Downloads/kitchen/fridge
+$ ls
+freezer/  milk.txt
+RichardDavis ~/Downloads/kitchen/fridge
+$ cd ../
+RichardDavis ~/Downloads/kitchen
+$ ls
+fridge/  pantry/  trashcan/
+RichardDavis ~/Downloads/kitchen
+$ cd trashcan/
+RichardDavis ~/Downloads/kitchen/trashcan
+$ ls
+banana-peels.txt  sink/
+RichardDavis ~/Downloads/kitchen/trashcan
+$ mv sink/ ~/Downloads/kitchen/
+'sink/' -> '/Users/RichardDavis/Downloads/kitchen/sink'
+RichardDavis ~/Downloads/kitchen/trashcan
+$ ls
+banana-peels.txt
+RichardDavis ~/Downloads/kitchen/trashcan
+$ cd ../
+RichardDavis ~/Downloads/kitchen
+$ ls
+fridge/  pantry/  sink/  trashcan/
+RichardDavis ~/Downloads/kitchen
+$ cd sink
+RichardDavis ~/Downloads/kitchen/sink
+$ ls
+clean-dishes.txt  delete-me.txt  dirty-dishes.txt
+RichardDavis ~/Downloads/kitchen/sink
+$ rm delete-me.txt 
+removed 'delete-me.txt'
+RichardDavis ~/Downloads/kitchen/sink
+$ mkdir drying-rack.txt
+gmkdir: created directory 'drying-rack.txt'
+RichardDavis ~/Downloads/kitchen/sink
+$ ls
+clean-dishes.txt  dirty-dishes.txt  drying-rack.txt/
+RichardDavis ~/Downloads/kitchen/sink
+$ mv clean-dishes.txt drying-rack.txt/
+'clean-dishes.txt' -> 'drying-rack.txt/clean-dishes.txt'
+RichardDavis ~/Downloads/kitchen/sink
+$ cd ../
+RichardDavis ~/Downloads/kitchen
+$ ls
+fridge/  pantry/  sink/  trashcan/
+RichardDavis ~/Downloads/kitchen
+$ cd pantry
+RichardDavis ~/Downloads/kitchen/pantry
+$ ls
+cans.txt  cereal.txt  crisper-drawer/
+RichardDavis ~/Downloads/kitchen/pantry
+$ mv crisper-drawer/ ~/Downloads/kitchen/fridge/
+'crisper-drawer/' -> '/Users/RichardDavis/Downloads/kitchen/fridge/crisper-drawer'
+RichardDavis ~/Downloads/kitchen/pantry
+$ cd ../
+RichardDavis ~/Downloads/kitchen
+$ ls
+fridge/  pantry/  sink/  trashcan/
+RichardDavis ~/Downloads/kitchen
+$ cd fridge
+RichardDavis ~/Downloads/kitchen/fridge
+$ ls
+crisper-drawer/  freezer/  milk.txt
+RichardDavis ~/Downloads/kitchen/fridge
+$ cd crisper-drawer/
+RichardDavis ~/Downloads/kitchen/fridge/crisper-drawer
+$ ls
+lettuce.txt
+RichardDavis ~/Downloads/kitchen/fridge/crisper-drawer
+$ touch apples.txt
+RichardDavis ~/Downloads/kitchen/fridge/crisper-drawer
+$ 
